@@ -7,12 +7,12 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.animation as animation
-json_filename = "D:/Solethon/perception/keypoint/test0_cones.json"
+json_filename = "test0_cones.json"
 with open(json_filename) as f:
     json_data = json.load(f)
 
 
-path ="D:/Solethon/perception/keypoint/newcone/test0.mp4"
+path ="test0.mp4"
 cap = cv2.VideoCapture(path)
 
 
